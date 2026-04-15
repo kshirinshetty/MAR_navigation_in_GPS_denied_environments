@@ -1,18 +1,22 @@
-# ROS2 Core
+# === ROS 2 Core & Simulation ===
 ros-humble-desktop
-
-# TurtleBot3 Packages
 ros-humble-turtlebot3
 ros-humble-turtlebot3-gazebo
-
-# Gazebo + ROS Integration
 ros-humble-gazebo-ros-pkgs
 
-# SLAM (optional - if mentioned in future work)
+# === SLAM & Mapping ===
 ros-humble-slam-toolbox
+ros-humble-nav2-map-server
 
-# Teleoperation
+# === Autonomous Navigation (Nav2) ===
+ros-humble-navigation2
+ros-humble-nav2-bringup
+
+# === Teleoperation & Visualization ===
 ros-humble-teleop-twist-keyboard
-
-# RViz for visualization
 ros-humble-rviz2
+
+# === Computer Vision Bridge (ROS to Python) ===
+ros-humble-cv-bridge
+ros-humble-vision-opencv
+ros-humble-image-transport
